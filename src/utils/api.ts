@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const axiosClient = axios.create({
+export const axiosClient = axios.create({
   baseURL: "https://bitcoinaverage-global-ethereum-index-v1.p.rapidapi.com/",
   responseType: "json",
   headers: {
